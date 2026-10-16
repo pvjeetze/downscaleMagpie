@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: If you use this software, please cite it using the metadata from this file.
+type: software
+title: 'downscaleMagpie: Downscaling of MAgPIE Outputs to 0.5 Degree'
+version: 0.1.0.9001
+date-released: '2026-10-16'
+abstract: 'Prepares the outputs of a MAgPIE run for the model-agnostic downscaling
+  kernels of luscale and writes the gridded results: readers of the gdx, the configuration
+  and the 0.5 degree files of the output folder, the MAgPIE-specific products (land
+  with sub-types and transitions by stage, peatland, land conservation, age classes,
+  cropland split, biodiversity intactness) and a writer of the output files.'
+authors:
+- family-names: von Jeetze
+  given-names: Patrick
+  email: vjeetze@pik-potsdam.de
+  orcid: https://orcid.org/0000-0002-1197-4412
+- family-names: Sauer
+  given-names: Pascal
+license: LGPL-3.0
+

@@ -1,0 +1,34 @@
+Type: Package
+Package: downscaleMagpie
+Title: Downscaling of MAgPIE Outputs to 0.5 Degree
+Version: 0.1.0.9001
+Date: 2026-10-16
+Authors@R: c(
+    person("Patrick", "von Jeetze", , "vjeetze@pik-potsdam.de", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0002-1197-4412")),
+    person("Pascal", "Sauer", role = "aut")
+  )
+Description: Prepares the outputs of a MAgPIE run for the model-agnostic downscaling kernels of
+    luscale and writes the gridded results: readers of the gdx, the configuration and the 0.5 degree
+    files of the output folder, the MAgPIE-specific products (land with sub-types and transitions by
+    stage, peatland, land conservation, age classes, cropland split, biodiversity intactness) and a
+    writer of the output files.
+License: LGPL-3 | file LICENSE
+Imports:
+    gdx2,
+    gms,
+    luscale,
+    madrat,
+    magclass,
+    magpie4,
+    mstools,
+    stats,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    withr
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: no
+Roxygen: list(markdown = FALSE)
+RoxygenNote: 7.3.3
